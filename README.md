@@ -4,7 +4,7 @@
 
 ## dependence
 docker 1.8+ ([Docker Installation](http://docs.docker.com/engine/installation/))  
-docker image: deepin/openqa-base ([openQA-base](https://github.com/choldrim/deepin-openqa-base-runner))
+docker image: deepin/openqa-base ([openQA-base](https://github.com/qiujieqiong/deepin-openqa-base-runner))
 
 ## Usage
 #### 0. Environment preparation
@@ -16,7 +16,7 @@ sudo chmod 777 /data
 
 #### 1. clone with submodules
 ```shell
-git clone --recursive https://github.com/choldrim/deepin-openqa-webui
+git clone --recursive https://github.com/qiujieqiong/deepin-openqa-webui
 ```
 
 #### 2. build webui container
@@ -48,7 +48,7 @@ If you don't use this service any more, just run `docker rm -f deepin/openqa-web
 ### Relative
 [openQA](https://github.com/os-autoinst/openQA)  
 [os-autoinst](https://github.com/os-autoinst/os-autoinst)  
-[deepin-openqa-base-runner](https://github.com/choldrim/deepin-openqa-base-runner)  
-[deepin-openqa-webui](https://github.com/choldrim/deepin-openqa-webui)  
-[deepin-openqa-worker](https://github.com/choldrim/deepin-openqa-worker)  
-[deepin-openqa-task-trigger](https://github.com/choldrim/deepin-openqa-task-trigger)  
+[deepin-openqa-base-runner](https://github.com/qiujieqiong/deepin-openqa-base-runner)  
+[deepin-openqa-webui](https://github.com/qiujieqiong/deepin-openqa-webui)  
+[deepin-openqa-worker](https://github.com/qiujieqiong/deepin-openqa-worker)  
+[deepin-openqa-task-trigger](https://github.com/qiujieqiong/deepin-openqa-task-trigger)  
